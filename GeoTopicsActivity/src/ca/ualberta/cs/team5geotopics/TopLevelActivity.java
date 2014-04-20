@@ -66,7 +66,7 @@ public class TopLevelActivity extends BrowseActivity implements AView<AModel> {
 
 	@Override
 	protected void onResume() {
-		invalidateOptionsMenu();
+	//	invalidateOptionsMenu();
 		manager.refresh(this.clm, this, viewingComment);
 		Log.w("Refresh", "After manager refresh");
 		// Reset the current viewing comment

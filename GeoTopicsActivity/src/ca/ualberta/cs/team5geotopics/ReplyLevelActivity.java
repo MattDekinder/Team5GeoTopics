@@ -121,7 +121,7 @@ public class ReplyLevelActivity extends BrowseActivity implements AView<AModel> 
 				b.getString("ViewingComment"));
 		this.updateViewingComment(viewingComment);
 		this.myView.notifyDataSetChanged();
-		invalidateOptionsMenu();
+//		invalidateOptionsMenu();
 		// Setup the listeners
 		browseListView
 				.setOnItemClickListener(new AdapterView.OnItemClickListener() {
